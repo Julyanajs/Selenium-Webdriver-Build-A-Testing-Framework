@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.julyanajs.testing.SkipTest">
+      <class name="com.julyanajs.testing.AssertionClass">
         <methods>
-          <include name="secondtTest"/>
+          <include name="testSoftAssertVerifyAll"/>
         </methods>
-      </class> <!-- com.julyanajs.testing.SkipTest -->
+      </class> <!-- com.julyanajs.testing.AssertionClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
